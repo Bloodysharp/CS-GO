@@ -30,6 +30,30 @@
     <ClInclude Include="Client\fmt\posix.h" />
     <ClInclude Include="Client\fmt\printf.h" />
     <ClInclude Include="Client\fmt\ranges.h" />
+    <ClInclude Include="sdk\classes\client_class.hpp" />
+    <ClInclude Include="sdk\classes\client_entity.hpp" />
+    <ClInclude Include="sdk\classes\collideable.hpp" />
+    <ClInclude Include="sdk\classes\convar.hpp" />
+    <ClInclude Include="sdk\classes\c_usercmd.hpp" />
+    <ClInclude Include="sdk\classes\entities.hpp" />
+    <ClInclude Include="sdk\classes\net_channel.hpp" />
+    <ClInclude Include="sdk\classes\recv_props.hpp" />
+    <ClInclude Include="sdk\classes\studio.hpp" />
+    <ClInclude Include="sdk\classes\view_setup.h" />
+    <ClInclude Include="sdk\math\vector2d.hpp" />
+    <ClInclude Include="sdk\math\vector3d.hpp" />
+    <ClInclude Include="sdk\math\view_matrix.hpp" />
+    <ClInclude Include="sdk\misc\color.hpp" />
+    <ClInclude Include="sdk\structs\animstate.hpp" />
+    <ClInclude Include="sdk\structs\dlight.hpp" />
+    <ClInclude Include="sdk\structs\materials.hpp" />
+    <ClInclude Include="sdk\structs\models.hpp" />
+    <ClInclude Include="sdk\structs\vertex_t.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sdk\classes\entities.cpp" />
+    <ClCompile Include="sdk\math\vector3d.cpp" />
+    <ClCompile Include="sdk\math\view_matrix.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
