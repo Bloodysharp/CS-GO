@@ -1,1 +1,1 @@
-# Open Source cheat for CS:GO widthout ImGui and freetype. 
+# Open Source cheat for CS:GO without ImGui and freetype. 
